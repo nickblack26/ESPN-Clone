@@ -7,19 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0134F9132B15504800BAE0A8 /* LiveVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134F9122B15504800BAE0A8 /* LiveVideoView.swift */; };
+		0134F9152B1557EB00BAE0A8 /* VideoOverlayInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134F9142B1557EB00BAE0A8 /* VideoOverlayInfoCard.swift */; };
+		0134F9182B1583D300BAE0A8 /* VideoOverlayStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134F9172B1583D300BAE0A8 /* VideoOverlayStatsView.swift */; };
+		0134F91A2B158AFE00BAE0A8 /* BoxscoreStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134F9192B158AFE00BAE0A8 /* BoxscoreStatView.swift */; };
+		0134F91F2B15A0B100BAE0A8 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134F91C2B15A0B100BAE0A8 /* AddressModel.swift */; };
+		0134F9202B15A0B100BAE0A8 /* VenueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134F91D2B15A0B100BAE0A8 /* VenueModel.swift */; };
+		0134F9222B16CD4100BAE0A8 /* SportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134F9212B16CD4100BAE0A8 /* SportModel.swift */; };
+		0134F9242B16DD0900BAE0A8 /* CompetitionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134F9232B16DD0800BAE0A8 /* CompetitionDetailView.swift */; };
+		0143806E2ABF7D150065E908 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143806D2ABF7D150065E908 /* EventDetailView.swift */; };
+		014380702ABF862B0065E908 /* CompetitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143806F2ABF862B0065E908 /* CompetitorView.swift */; };
+		014380722AC08F890065E908 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014380712AC08F890065E908 /* HeaderView.swift */; };
+		014380742AC098E50065E908 /* CardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014380732AC098E50065E908 /* CardTest.swift */; };
+		01469FFC2ABBDFDE00884993 /* PlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01469FFB2ABBDFDE00884993 /* PlayModel.swift */; };
+		01469FFE2ABBE01B00884993 /* SituationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01469FFD2ABBE01A00884993 /* SituationModel.swift */; };
+		0146A0002ABBE0AB00884993 /* CompetitionStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01469FFF2ABBE0AB00884993 /* CompetitionStatusModel.swift */; };
+		0146A0022ABBE11000884993 /* BroadcastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146A0012ABBE11000884993 /* BroadcastModel.swift */; };
+		0146A0042ABBE15B00884993 /* CuratedRankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146A0032ABBE15B00884993 /* CuratedRankModel.swift */; };
+		0146A0062ABBE18700884993 /* RecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146A0052ABBE18700884993 /* RecordModel.swift */; };
+		0146A0082ABBE24B00884993 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146A0072ABBE24B00884993 /* TeamModel.swift */; };
+		0159F84C2AB923D100A86590 /* testData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159F84B2AB923D100A86590 /* testData.swift */; };
+		0159F84F2AB9256300A86590 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159F84E2AB9256300A86590 /* EventModel.swift */; };
+		0159F8512AB925FB00A86590 /* CompetitionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159F8502AB925FB00A86590 /* CompetitionModel.swift */; };
+		0159F8532AB92E5100A86590 /* CompetitorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159F8522AB92E5100A86590 /* CompetitorModel.swift */; };
+		0159F8552AB92FDF00A86590 /* ScoreboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159F8542AB92FDF00A86590 /* ScoreboardModel.swift */; };
+		0159F8572AB9329300A86590 /* ScoreboardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0159F8562AB9329300A86590 /* ScoreboardListView.swift */; };
 		01A312BB2AB356CA00E2B9D2 /* ESPN_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312BA2AB356CA00E2B9D2 /* ESPN_CloneApp.swift */; };
 		01A312BD2AB356CA00E2B9D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312BC2AB356CA00E2B9D2 /* ContentView.swift */; };
 		01A312BF2AB356CD00E2B9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A312BE2AB356CD00E2B9D2 /* Assets.xcassets */; };
 		01A312C32AB356CD00E2B9D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A312C22AB356CD00E2B9D2 /* Preview Assets.xcassets */; };
+		01A312CB2AB35A2E00E2B9D2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312CA2AB35A2E00E2B9D2 /* CardView.swift */; };
+		01A312CD2AB35B7800E2B9D2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312CC2AB35B7800E2B9D2 /* HomeView.swift */; };
+		01A312D62AB3833B00E2B9D2 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312D52AB3833B00E2B9D2 /* VideoView.swift */; };
+		01A312D82AB3A2D100E2B9D2 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312D72AB3A2D100E2B9D2 /* ArticleDetailView.swift */; };
+		01A312DB2AB3A3D700E2B9D2 /* SwiftUI+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312DA2AB3A3D700E2B9D2 /* SwiftUI+HTML.swift */; };
+		01A312DD2AB628DC00E2B9D2 /* NewsFeedSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312DC2AB628DC00E2B9D2 /* NewsFeedSectionView.swift */; };
+		01A312DF2AB62D2B00E2B9D2 /* ScoresFeedSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312DE2AB62D2B00E2B9D2 /* ScoresFeedSectionView.swift */; };
+		01A312E12AB62E0900E2B9D2 /* CompetitorScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312E02AB62E0900E2B9D2 /* CompetitorScoreView.swift */; };
+		01A312E32AB6348600E2B9D2 /* CompetitionListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312E22AB6348600E2B9D2 /* CompetitionListItemView.swift */; };
+		01A312E62AB644CE00E2B9D2 /* MainSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A312E52AB644CE00E2B9D2 /* MainSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0134F9122B15504800BAE0A8 /* LiveVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveVideoView.swift; sourceTree = "<group>"; };
+		0134F9142B1557EB00BAE0A8 /* VideoOverlayInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoOverlayInfoCard.swift; sourceTree = "<group>"; };
+		0134F9172B1583D300BAE0A8 /* VideoOverlayStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoOverlayStatsView.swift; sourceTree = "<group>"; };
+		0134F9192B158AFE00BAE0A8 /* BoxscoreStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxscoreStatView.swift; sourceTree = "<group>"; };
+		0134F91C2B15A0B100BAE0A8 /* AddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressModel.swift; path = "../../../../Downloads/Nation Swift (quicktype)/AddressModel.swift"; sourceTree = "<group>"; };
+		0134F91D2B15A0B100BAE0A8 /* VenueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VenueModel.swift; path = "../../../../Downloads/Nation Swift (quicktype)/VenueModel.swift"; sourceTree = "<group>"; };
+		0134F9212B16CD4100BAE0A8 /* SportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportModel.swift; sourceTree = "<group>"; };
+		0134F9232B16DD0800BAE0A8 /* CompetitionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionDetailView.swift; sourceTree = "<group>"; };
+		0143806D2ABF7D150065E908 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		0143806F2ABF862B0065E908 /* CompetitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitorView.swift; sourceTree = "<group>"; };
+		014380712AC08F890065E908 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		014380732AC098E50065E908 /* CardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTest.swift; sourceTree = "<group>"; };
+		01469FFB2ABBDFDE00884993 /* PlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayModel.swift; sourceTree = "<group>"; };
+		01469FFD2ABBE01A00884993 /* SituationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SituationModel.swift; sourceTree = "<group>"; };
+		01469FFF2ABBE0AB00884993 /* CompetitionStatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionStatusModel.swift; sourceTree = "<group>"; };
+		0146A0012ABBE11000884993 /* BroadcastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastModel.swift; sourceTree = "<group>"; };
+		0146A0032ABBE15B00884993 /* CuratedRankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuratedRankModel.swift; sourceTree = "<group>"; };
+		0146A0052ABBE18700884993 /* RecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordModel.swift; sourceTree = "<group>"; };
+		0146A0072ABBE24B00884993 /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		0159F84B2AB923D100A86590 /* testData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testData.swift; sourceTree = "<group>"; };
+		0159F84E2AB9256300A86590 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		0159F8502AB925FB00A86590 /* CompetitionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionModel.swift; sourceTree = "<group>"; };
+		0159F8522AB92E5100A86590 /* CompetitorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitorModel.swift; sourceTree = "<group>"; };
+		0159F8542AB92FDF00A86590 /* ScoreboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardModel.swift; sourceTree = "<group>"; };
+		0159F8562AB9329300A86590 /* ScoreboardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardListView.swift; sourceTree = "<group>"; };
 		01A312B72AB356CA00E2B9D2 /* ESPN Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESPN Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A312BA2AB356CA00E2B9D2 /* ESPN_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPN_CloneApp.swift; sourceTree = "<group>"; };
 		01A312BC2AB356CA00E2B9D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01A312BE2AB356CD00E2B9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01A312C02AB356CD00E2B9D2 /* ESPN_Clone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ESPN_Clone.entitlements; sourceTree = "<group>"; };
 		01A312C22AB356CD00E2B9D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01A312CA2AB35A2E00E2B9D2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		01A312CC2AB35B7800E2B9D2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		01A312D52AB3833B00E2B9D2 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		01A312D72AB3A2D100E2B9D2 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		01A312DA2AB3A3D700E2B9D2 /* SwiftUI+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+HTML.swift"; sourceTree = "<group>"; };
+		01A312DC2AB628DC00E2B9D2 /* NewsFeedSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedSectionView.swift; sourceTree = "<group>"; };
+		01A312DE2AB62D2B00E2B9D2 /* ScoresFeedSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresFeedSectionView.swift; sourceTree = "<group>"; };
+		01A312E02AB62E0900E2B9D2 /* CompetitorScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitorScoreView.swift; sourceTree = "<group>"; };
+		01A312E22AB6348600E2B9D2 /* CompetitionListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionListItemView.swift; sourceTree = "<group>"; };
+		01A312E52AB644CE00E2B9D2 /* MainSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +103,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0134F9162B15839B00BAE0A8 /* Video Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				0134F9142B1557EB00BAE0A8 /* VideoOverlayInfoCard.swift */,
+				0134F9172B1583D300BAE0A8 /* VideoOverlayStatsView.swift */,
+				0134F9192B158AFE00BAE0A8 /* BoxscoreStatView.swift */,
+			);
+			path = "Video Overlay";
+			sourceTree = "<group>";
+		};
+		0159F84D2AB9251D00A86590 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0159F84E2AB9256300A86590 /* EventModel.swift */,
+				0159F8502AB925FB00A86590 /* CompetitionModel.swift */,
+				0159F8522AB92E5100A86590 /* CompetitorModel.swift */,
+				0159F8542AB92FDF00A86590 /* ScoreboardModel.swift */,
+				01469FFB2ABBDFDE00884993 /* PlayModel.swift */,
+				01469FFD2ABBE01A00884993 /* SituationModel.swift */,
+				0134F91C2B15A0B100BAE0A8 /* AddressModel.swift */,
+				0134F91D2B15A0B100BAE0A8 /* VenueModel.swift */,
+				01469FFF2ABBE0AB00884993 /* CompetitionStatusModel.swift */,
+				0146A0012ABBE11000884993 /* BroadcastModel.swift */,
+				0146A0032ABBE15B00884993 /* CuratedRankModel.swift */,
+				0146A0052ABBE18700884993 /* RecordModel.swift */,
+				0146A0072ABBE24B00884993 /* TeamModel.swift */,
+				0134F9212B16CD4100BAE0A8 /* SportModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		01A312AE2AB356CA00E2B9D2 = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +153,15 @@
 		01A312B92AB356CA00E2B9D2 /* ESPN Clone */ = {
 			isa = PBXGroup;
 			children = (
+				0159F84D2AB9251D00A86590 /* Models */,
+				01A312D92AB3A3CA00E2B9D2 /* Extensions */,
+				01A312C92AB35A0500E2B9D2 /* Views */,
 				01A312BA2AB356CA00E2B9D2 /* ESPN_CloneApp.swift */,
 				01A312BC2AB356CA00E2B9D2 /* ContentView.swift */,
 				01A312BE2AB356CD00E2B9D2 /* Assets.xcassets */,
 				01A312C02AB356CD00E2B9D2 /* ESPN_Clone.entitlements */,
 				01A312C12AB356CD00E2B9D2 /* Preview Content */,
+				0159F84B2AB923D100A86590 /* testData.swift */,
 			);
 			path = "ESPN Clone";
 			sourceTree = "<group>";
@@ -67,6 +172,46 @@
 				01A312C22AB356CD00E2B9D2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01A312C92AB35A0500E2B9D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0134F9162B15839B00BAE0A8 /* Video Overlay */,
+				01A312E42AB644A900E2B9D2 /* Main Views */,
+				01A312CA2AB35A2E00E2B9D2 /* CardView.swift */,
+				01A312D52AB3833B00E2B9D2 /* VideoView.swift */,
+				01A312D72AB3A2D100E2B9D2 /* ArticleDetailView.swift */,
+				01A312DC2AB628DC00E2B9D2 /* NewsFeedSectionView.swift */,
+				01A312DE2AB62D2B00E2B9D2 /* ScoresFeedSectionView.swift */,
+				01A312E02AB62E0900E2B9D2 /* CompetitorScoreView.swift */,
+				01A312E22AB6348600E2B9D2 /* CompetitionListItemView.swift */,
+				0159F8562AB9329300A86590 /* ScoreboardListView.swift */,
+				0143806D2ABF7D150065E908 /* EventDetailView.swift */,
+				0143806F2ABF862B0065E908 /* CompetitorView.swift */,
+				014380712AC08F890065E908 /* HeaderView.swift */,
+				014380732AC098E50065E908 /* CardTest.swift */,
+				0134F9122B15504800BAE0A8 /* LiveVideoView.swift */,
+				0134F9232B16DD0800BAE0A8 /* CompetitionDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01A312D92AB3A3CA00E2B9D2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				01A312DA2AB3A3D700E2B9D2 /* SwiftUI+HTML.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		01A312E42AB644A900E2B9D2 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				01A312CC2AB35B7800E2B9D2 /* HomeView.swift */,
+				01A312E52AB644CE00E2B9D2 /* MainSettingsView.swift */,
+			);
+			path = "Main Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +284,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0159F8552AB92FDF00A86590 /* ScoreboardModel.swift in Sources */,
+				01A312DB2AB3A3D700E2B9D2 /* SwiftUI+HTML.swift in Sources */,
+				014380702ABF862B0065E908 /* CompetitorView.swift in Sources */,
+				0146A0042ABBE15B00884993 /* CuratedRankModel.swift in Sources */,
+				01A312D82AB3A2D100E2B9D2 /* ArticleDetailView.swift in Sources */,
+				01A312E62AB644CE00E2B9D2 /* MainSettingsView.swift in Sources */,
+				01A312E12AB62E0900E2B9D2 /* CompetitorScoreView.swift in Sources */,
+				0146A0022ABBE11000884993 /* BroadcastModel.swift in Sources */,
+				0134F91A2B158AFE00BAE0A8 /* BoxscoreStatView.swift in Sources */,
+				0159F84F2AB9256300A86590 /* EventModel.swift in Sources */,
+				01A312E32AB6348600E2B9D2 /* CompetitionListItemView.swift in Sources */,
+				0159F8512AB925FB00A86590 /* CompetitionModel.swift in Sources */,
+				0134F9202B15A0B100BAE0A8 /* VenueModel.swift in Sources */,
+				01469FFC2ABBDFDE00884993 /* PlayModel.swift in Sources */,
+				0134F9152B1557EB00BAE0A8 /* VideoOverlayInfoCard.swift in Sources */,
+				014380742AC098E50065E908 /* CardTest.swift in Sources */,
+				0159F8532AB92E5100A86590 /* CompetitorModel.swift in Sources */,
+				0146A0002ABBE0AB00884993 /* CompetitionStatusModel.swift in Sources */,
+				0159F84C2AB923D100A86590 /* testData.swift in Sources */,
 				01A312BD2AB356CA00E2B9D2 /* ContentView.swift in Sources */,
+				01A312DF2AB62D2B00E2B9D2 /* ScoresFeedSectionView.swift in Sources */,
+				0134F9242B16DD0900BAE0A8 /* CompetitionDetailView.swift in Sources */,
+				0146A0082ABBE24B00884993 /* TeamModel.swift in Sources */,
+				0143806E2ABF7D150065E908 /* EventDetailView.swift in Sources */,
+				0134F9132B15504800BAE0A8 /* LiveVideoView.swift in Sources */,
+				0134F9222B16CD4100BAE0A8 /* SportModel.swift in Sources */,
+				0159F8572AB9329300A86590 /* ScoreboardListView.swift in Sources */,
+				01A312D62AB3833B00E2B9D2 /* VideoView.swift in Sources */,
+				01A312DD2AB628DC00E2B9D2 /* NewsFeedSectionView.swift in Sources */,
+				01469FFE2ABBE01B00884993 /* SituationModel.swift in Sources */,
+				0134F9182B1583D300BAE0A8 /* VideoOverlayStatsView.swift in Sources */,
+				0146A0062ABBE18700884993 /* RecordModel.swift in Sources */,
+				01A312CD2AB35B7800E2B9D2 /* HomeView.swift in Sources */,
+				01A312CB2AB35A2E00E2B9D2 /* CardView.swift in Sources */,
 				01A312BB2AB356CA00E2B9D2 /* ESPN_CloneApp.swift in Sources */,
+				014380722AC08F890065E908 /* HeaderView.swift in Sources */,
+				0134F91F2B15A0B100BAE0A8 /* AddressModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
